@@ -133,3 +133,19 @@ input:checked + .slider:before {
   opacity: 0.7;
   font-style: italic;
 }
+
+.footer .credits {
+  margin-top: 8px;
+  font-style: normal;
+  opacity: 0.9;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  opacity: 0.8;
+}

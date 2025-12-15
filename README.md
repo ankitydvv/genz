@@ -134,5 +134,12 @@ Ideas for expanding this extension:
 
 ---
 
+## Credits
+
+**Created by:** [ankit](https://github.com/ankitydvv)  
+**GitHub:** https://github.com/ankitydvv/genz
+
+---
+
 **Have fun translating! No cap, this extension is lowkey fire! 🔥**  
 *(Translation: I'm not lying, this extension is kind of great!)*
