@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gen Z Autocorrect</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔄 Gen Z Autocorrect</h1>
+    <p class="tagline">Translate slang to plain English</p>
+    
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="toggleSwitch" checked>
+        <span class="slider"></span>
+      </label>
+      <span id="statusText" class="status-on">ON</span>
+    </div>
+    
+    <div class="info">
+      <h3>Translates:</h3>
+      <ul>
+        <li>"no cap" → "I'm not lying"</li>
+        <li>"fr" → "I'm serious"</li>
+        <li>"lowkey" → "kind of"</li>
+        <li>"sus" → "suspicious"</li>
+        <li>"rizz" → "charisma"</li>
+        <li>...and more!</li>
+      </ul>
+    </div>
+    
+    <div class="footer">
+      <p>Refresh page after toggling</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

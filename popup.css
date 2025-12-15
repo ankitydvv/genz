@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Toggle Switch Styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #4CAF50;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.status-on {
+  font-weight: bold;
+  font-size: 18px;
+  color: #4CAF50;
+  text-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.status-off {
+  font-weight: bold;
+  font-size: 18px;
+  color: #f44336;
+  text-shadow: 0 0 10px rgba(244, 67, 54, 0.5);
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.info h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.info ul {
+  list-style: none;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.info li {
+  padding-left: 10px;
+  opacity: 0.9;
+}
+
+.info li:before {
+  content: "→ ";
+  margin-right: 5px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  opacity: 0.7;
+  font-style: italic;
+}
